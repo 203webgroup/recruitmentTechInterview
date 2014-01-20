@@ -76,9 +76,9 @@ class SolutionsTest extends \PHPUnit_Framework_TestCase
     {
         // Fixture
         $values = [
-            ['name' => 'Pluto', 'type' => 'Hund'],
-            ['name' => 'Kalle Anka', 'type' => 'Anka'],
-            ['name' => 'Musse Pigg', 'type' => 'Mus']
+            ['name' => 'Pluto', 'type' => 'Dog'],
+            ['name' => 'Donal Duck', 'type' => 'Duck'],
+            ['name' => 'Mickey Mouse', 'type' => 'Mouse']
         ];
 
         // Test
@@ -86,9 +86,9 @@ class SolutionsTest extends \PHPUnit_Framework_TestCase
 
         // Assert
         $expected = [
-            ['name' => 'Kalle Anka', 'type' => 'Anka'],
-            ['name' => 'Musse Pigg', 'type' => 'Mus'],
-            ['name' => 'Pluto', 'type' => 'Hund']
+            ['name' => 'Donal Duck', 'type' => 'Duck'],
+            ['name' => 'Mickey Mouse', 'type' => 'Mouse'],
+            ['name' => 'Pluto', 'type' => 'Dog']
         ];
         $this->assertEquals($expected, $values);
     }

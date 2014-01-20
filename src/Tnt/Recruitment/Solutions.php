@@ -14,13 +14,17 @@ class Solutions
         for ($i = 0; $i < 10; $i++) {
             $val = rand(1, 10);
             $isEven = ($val % 2) == 0;
+            $this->printValue($val, $isEven);
+        }
+    }
 
-            echo("$val ");
-            if ($isEven) {
-                echo("jämn\n");
-            } else {
-                echo("Udda\n");
-            }
+    private function printValue($val, $isEven)
+    {
+        echo("$val ");
+        if ($isEven) {
+            echo("even\n");
+        } else {
+            echo("odd\n");
         }
     }
 

@@ -1,0 +1,85 @@
+Live coding tool: https://code.stypi.com
+
+The idea is that the coding tasks should be so simple that no real thinking should be needed before coding.
+
+1. Define LAMP?
+2. What is a static function?
+3. Explain the difference between public, private, protected och global?
+4. Explain the difference between GET och POST?
+5. Explain the difference between == and ===?
+6. What is the difference between double and single quotes (“ vs ')?
+7. What is an index in a sql database?
+8. Explain what Ajax is and how to use it?
+9. If you have to create an API, which data format would you choose and why?
+10. If you are to save passwords, how do you do? Why?
+
+/*
+ * 11. Implement a function that returns the following string: ABCDEFGHIJKLMNOPQRSTUVWXYZÅÄÖ0123456789
+ */
+ 
+/*
+ * 12. Implement a function that prints 10 random numbers between 1 and 10. Print odd/even after each number based on
+ * the value.
+ *
+ * Example:
+ *		4 even
+ *		6 even
+ *		8 even
+ *		5 odd
+ *		1 odd
+ *		4 even
+ *		9 odd
+ *		8 even
+ *		2 even
+ *		1 odd
+ */
+ 
+/*
+ * 13. Implement a function that validates an email address. Return true or false.
+ */
+  
+/*
+ * 14. Implement a function that sorts the following array based on name.
+        $values = [
+            ['name' => 'Pluto', 'type' => 'Dog'],
+            ['name' => 'Donal Duck', 'type' => 'Duck'],
+            ['name' => 'Mickey Mouse', 'type' => 'Mouse']
+        ];
+ */
+
+ /*
+  * 15. Given the sorting method above is implemented in the Solutions class and that you have the following unit test
+  * class, implement a test for the sorting function.
+  *
+  * Implementation:
+class Solutions
+{
+    public function question14(&$values)
+    {
+        usort($values, function ($a, $b) {
+            return strcmp($a['name'], $b['name']);
+        });
+    }
+}
+  *
+  * Unit tests:
+class SolutionsTest extends \PHPUnit_Framework_TestCase
+{
+    /**
+     * @var Solutions
+     */
+    private $target;
+
+    public function setup()
+    {
+        $this->target = new Solutions();
+    }
+
+    // TODO Add test for question14()
+}
+
+16. Explain dependency injection.
+17. What is a mock? How do you use it?
+18. What type of code constructs that makes unit testing difficult or impossible?
+19. What is a no sql database?
+20. What is an interface? What do you use it for?
