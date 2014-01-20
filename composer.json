@@ -1,0 +1,21 @@
+{
+    "name": "203webgroup/TechIntervju",
+    "description": "Questions to be used on live programming interviews",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "203 Webgroup"
+        }
+    ],
+    "require": {
+        "jms/di-extra-bundle": "1.4.0",
+        "mnapoli/php-di": "3.3.0"
+    },
+    "require-dev": {
+        "hafriedlander/phockito": "dev-master",
+        "phpunit/phpunit": "3.7.*"
+    },
+    "autoload": {
+        "psr-0": {"Tnt": "src/" }
+    }
+}

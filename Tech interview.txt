@@ -1,0 +1,85 @@
+Livekodningen: https://code.stypi.com
+
+Tanken med koduppgifterna är att de ska vara så pass enkla att man egentligen inte ska behöva fundera så mycket innan man börjar koda. Kan tänkas att man behöver gå upp ett snäpp i nivå om det är seniora programmerare som söker.
+
+1. Definiera LAMP?
+2. Vad innebär det att ha en statisk funktion?
+3. Kan du förklara skillnaden på public, private, protected och global?
+4. Vad är det för skillnad mellan GET och POST?
+5. Vad är det för skillnad på jämförelse med två likhetstecken kontra tre st?
+6. Vad är det för skillnad på dubbelfnuttar och enkelfnuttar (“ vs ')?
+7. Vad innebär index i databassammanhang?
+8. Kan du förklara vad Ajax är och hur det används?
+9. Om du skulle bygga ett API, vilket dataformat skulle du använda? Varför?
+10. Om du skulle spara lösenord, hur skulle du spara det då? Varför?
+
+/*
+ * 11. Implementera en funktion som returnerar följande sträng: ABCDEFGHIJKLMNOPQRSTUVWXYZÅÄÖ0123456789
+ */
+ 
+/*
+ * 12. Implementera en funktion som skriver ut 10 slumpgenererade nummer mellan 1 och 10. 
+ *    Skriv ut jämn/udda bredvid beroende på om siffran är jämn eller udda
+ *
+ * Exempel:
+ *		4 jämn
+ *		6 jämn
+ *		8 jämn
+ *		5 udda
+ *		1 udda
+ *		4 jämn
+ *		9 udda
+ *		8 jämn
+ *		2 jämn
+ *		1 udda
+ */
+ 
+/*
+ * 13. Implementera en funktion som validerar en e-postadress. Returnera true eller false.
+ */
+  
+/*
+ * 14. Implementera en funktion som sorterar följande array efter namn:
+        $values = [
+            ['name' => 'Pluto', 'type' => 'Hund'],
+            ['name' => 'Kalle Anka', 'type' => 'Anka'],
+            ['name' => 'Musse Pigg', 'type' => 'Mus']
+        ];
+ */
+
+ /*
+  * 15. Givet att ovanstående metod är implementerad i klassen Solutions och att du har följande unittest-klass,
+  * implementera ett test för sorteringsfunktionen
+  *
+  * Implementation:
+class Solutions
+{
+    public function question14(&$values)
+    {
+        usort($values, function ($a, $b) {
+            return strcmp($a['name'], $b['name']);
+        });
+    }
+}
+  *
+  * Unit tests:
+class SolutionsTest extends \PHPUnit_Framework_TestCase
+{
+    /**
+     * @var Solutions
+     */
+    private $target;
+
+    public function setup()
+    {
+        $this->target = new Solutions();
+    }
+
+    // TODO Add test for question14()
+}
+
+16. Vad är dependency injection?
+17. Vad är en mock?
+18. Vilka typer av kodkonstruktioner försvårar/omöjliggör unittestning?
+19. Vad är en no sql databas?
+20. Vad är ett interface? Vad används det till?
