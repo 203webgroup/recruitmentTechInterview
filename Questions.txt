@@ -78,8 +78,8 @@ class SolutionsTest extends \PHPUnit_Framework_TestCase
     // TODO Add test for question14()
 }
 
-16. Explain dependency injection.
-17. What is a mock? How do you use it?
-18. What type of code constructs that makes unit testing difficult or impossible?
-19. What is a no sql database?
-20. What is an interface? What do you use it for?
+16. Describe the architecture you would use to create a system where as much as possible of the code is decoupled from the framework.
+17. What is a no sql database?
+18. What type of code constructs makes unit testing difficult or impossible?
+19. Explain dependency injection.
+20. What is a mock? How do you use it?
