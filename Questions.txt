@@ -52,6 +52,7 @@ The idea is that the coding tasks should be so simple that no real thinking shou
   * class, implement a test for the sorting function.
   *
   * Implementation:
+  */
 class Solutions
 {
     public function question14(&$values)
@@ -61,8 +62,9 @@ class Solutions
         });
     }
 }
-  *
+ /*
   * Unit tests:
+  */
 class SolutionsTest extends \PHPUnit_Framework_TestCase
 {
     /**
