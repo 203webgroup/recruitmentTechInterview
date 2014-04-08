@@ -46,6 +46,16 @@ class Solutions
         }
     }
 
+    public function question12b()
+    {
+        $rands = array_map(function() {return rand(1, 10);}, range(1, 10));
+        $strings = array_map(function($val) {
+                $oddEven = ($val % 2) == 0 ? "even" : "odd";
+                return $val . " " . $oddEven . "\n";
+            }, $rands);
+        array_map(function($string) {echo($string);}, $strings);
+    }
+
     public function question13($emailAddress)
     {
         return $this->question13a($emailAddress);

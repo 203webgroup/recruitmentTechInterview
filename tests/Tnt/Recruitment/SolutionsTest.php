@@ -32,7 +32,7 @@ class SolutionsTest extends \PHPUnit_Framework_TestCase
     /**
      * @test
      */
-    public function question12SExecute()
+    public function question12Execute()
     {
         // Fixture
         // Test
